@@ -1,0 +1,101 @@
+<!--Create a biography page using the HTML text formatting tags
+studied in the class. Make sure to use these tags also: <code>
+<cite> <em> <details> <summary> <label> <meter>
+<samp> <wbr> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Biography</title>
+</head>
+<body style="background-color:#f7f7f7;" >
+
+    <center>
+    <table width="800px" border="1" style="background-color:#ffffff;" >
+	
+        <tr>
+		
+            <th width="600px"  >My Biography</th>
+			  <td rowspan="2" width="20%">
+                <img src=Image/anmol.jpg alt="My Photo" width="100%" style="border: 15px;">
+            </td>
+			
+        </tr>
+			
+        <tr>
+            <td>
+			
+                <ul>
+				
+                    <li>Name : Anmol Acharya</li>					
+					<li>StudentID :<samp> M22W0410</samp></li> <!-- use samp tag -->
+                    <li>Birth Date : 1997/07/10</li>
+                    <address> <li>Permanent Address : Bhumikasthan 10, Arghakhanchi, Nepal.</li> </address>
+					<address> <li>Current Address : Kyoto Japan.</li> </address>
+                    <li>Hobby : Reading, Playing Games </li>
+                    <li>Religion : Hindu</li>
+					<li>Nationalist : <cite>Nepalese</li></cite> <!-- Cite: The text in the <cite> element usually renders in italic.-->
+					
+				
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2"  >About Me</th>
+        </tr>
+        <tr>
+            <td colspan="2">
+			<!-- The <em> tag is used to define emphasized text. The content inside is typically displayed in italic-->
+                <p> I have <em>good</em> knowledge and hardworking person, with broad skills and experience in data, social media and web <wbr>
+				programming such as python, dot net and HTML and CSS.
+					Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well under pressure.
+					A key strength is communication; building strong relationships with people in order to deliver the best results.</p>
+					<p>Recently, I have completed Computer sciene and information Technology  at the Tribhuvan University, Nepal and I am now doing Master in
+					 The Kyoto College of Graduate Studies for Informatics (KCGI)</p>
+                
+				<details> <summary> Qualification </summary> I believe I am the most qualified for the job because I have completed 3 years in this field.
+				 <ul>
+                    <li> Worked Php (yii framework) - 10 months </li>
+					<li> Data Engineer (data migration) using SQL Server- 22 month (2020 feb – 2021 dec)</li>
+					<li>SOftware Engineer (Python MVC,data science) 2022 jan- 2022 march) </li>
+									
+                </ul>
+				</details><br>
+				
+            </td>
+        </tr>
+        <tr>
+		<!-- Define some text as computer code in a document- property defines the background color of an element -->
+            <th colspan="2"  ><code>Social Media</code></th>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <p><code>Please click the link:</code></p>
+                <ul>
+                    <li><a href="https://www.youtube.com">YouTube</a></li>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+					<li><a href="https://www.facebook.com">Facebook</a></li>
+					
+                </ul>
+            </td>
+        </tr>
+		<tr><th colspan="2"> Other Information  </th></tr>
+		 <!--The <label> tag defines the label for <button>, <input>, <meter>, <output>, <progress>, 
+		 <select>, or <textarea> element. -->
+		  <tr>
+            <td colspan="2">
+		
+                <center><textarea rows = "7" cols = "90" name = "description" >
+					
+					
+				</textarea> </center>
+				
+			<label> <b>Check satisfaction level of Biography page:</b></label>
+			<meter  value="7" min="0" max="10">7 out of 10</meter><br>
+
+			</td>
+		  </tr>
+    </table>
+    </center>
+</body>
+</html>
